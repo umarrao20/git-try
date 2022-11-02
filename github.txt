@@ -1,0 +1,26 @@
+-> Git & Github (difference)
+-> Terms
+	Repository, Directory, cd, Terminal & Command Line / Github Desktop, 
+-> Git Commands
+	Clone, add(track), commit(save), push(upload), pull(!push)
+
+Steps for new repo:
+Create Repo on Github
+git init
+git add . 
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Nabeel0r0/try.git
+git push -u origin main (authentication required)
+
+
+steps for existing repo:
+git clone ssh/https
+git add .
+git status
+git commit -m "message" -m "description"
+
+
+SSH KEY:
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
